@@ -25,22 +25,8 @@ def data_gen(t=0):
     while cnt < FRAMES:
         cnt += 1
         t += INTERVALS
-        yield t, function_to_animate(t)
-        
-
-def data2_gen(t=0):
-    cnt = 0
-    while cnt < FRAMES:
-        cnt += 1
-        t += INTERVALS
         yield t, np.cos(t)
         
-        
-def function_to_animate(t):
-    return np.sin(t)
-
-    
-   
 
 fig, ax = plt.subplots()
 line, = ax.plot([], [], lw=2)
@@ -67,7 +53,6 @@ def run(data):
         ax.figure.canvas.draw()
     line.set_data(xdata, ydata)
     
-    
     if y>=ymax:
         ax.set_ylim(ymin, 2*ymax)
         ax.figure.canvas.draw()
@@ -83,8 +68,6 @@ def run(data):
 ani = animation.FuncAnimation(fig, func = run, frames = data_gen(), blit=True, interval=INTERVALS,
                       repeat=False, init_func=init)
 
-ani2 = animation.FuncAnimation(fig, func = run, frames = data2_gen(), blit=True, interval=INTERVALS,
-                      repeat=False, init_func=init)
 
 plt.show()
 
