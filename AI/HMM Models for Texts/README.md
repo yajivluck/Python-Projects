@@ -11,8 +11,8 @@ This project uses a Markov model to generate random sentences based on a given v
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo-name.git`
-2. Navigate to the project directory: `cd your-repo-name`
+1. Clone the repository: `git clone https://github.com/yajivluck/Python-Projects.git`
+2. Navigate to the project directory: `cd [path_to_cloned_project]`
 3. Install the required dependencies: `pip install -r requirements.txt`
 
 ### Running the Project
