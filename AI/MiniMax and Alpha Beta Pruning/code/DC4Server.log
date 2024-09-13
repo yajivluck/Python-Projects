@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-09-24T21:24:05.367934Z</date>
+  <millis>1695590645367</millis>
+  <nanos>934000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>DC4Server on port 12345 with timeout = 30000 ms is up.</message>
+</record>
+<record>
+  <date>2023-09-24T21:41:17.897071Z</date>
+  <millis>1695591677897</millis>
+  <nanos>71000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>processLine</method>
+  <thread>13</thread>
+  <message>black player of gameID = "mytestgame" is waiting for an opponent...</message>
+</record>
+<record>
+  <date>2023-09-24T21:41:35.340196Z</date>
+  <millis>1695591695340</millis>
+  <nanos>196000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>processLine</method>
+  <thread>14</thread>
+  <message>gameID = "mytestgame" has started!</message>
+</record>
+<record>
+  <date>2023-09-24T21:42:05.342713Z</date>
+  <millis>1695591725342</millis>
+  <nanos>713000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>waitForOpponent</method>
+  <thread>13</thread>
+  <message>gameID = "mytestgame" has timed out.</message>
+</record>
+<record>
+  <date>2023-09-24T21:42:05.373824Z</date>
+  <millis>1695591725373</millis>
+  <nanos>824000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>run</method>
+  <thread>14</thread>
+  <message>white player's client of gameID = "mytestgame" is disconnected.</message>
+</record>
+<record>
+  <date>2023-09-24T21:42:05.373815Z</date>
+  <millis>1695591725373</millis>
+  <nanos>815000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>run</method>
+  <thread>13</thread>
+  <message>black player's client of gameID = "mytestgame" is disconnected.</message>
+</record>
+<record>
+  <date>2023-09-24T21:42:14.014963Z</date>
+  <millis>1695591734014</millis>
+  <nanos>963000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>processLine</method>
+  <thread>15</thread>
+  <message>white player of gameID = "mytestgame" is waiting for an opponent...</message>
+</record>
+<record>
+  <date>2023-09-24T21:42:15.860390Z</date>
+  <millis>1695591735860</millis>
+  <nanos>390000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>processLine</method>
+  <thread>16</thread>
+  <message>gameID = "mytestgame" has started!</message>
+</record>
+<record>
+  <date>2023-09-24T21:43:21.984921Z</date>
+  <millis>1695591801984</millis>
+  <nanos>921000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>black player's client of gameID = "mytestgame" is disconnected.</message>
+</record>
+<record>
+  <date>2023-09-24T21:43:21.990721Z</date>
+  <millis>1695591801990</millis>
+  <nanos>721000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>run</method>
+  <thread>15</thread>
+  <message>white player's client of gameID = "mytestgame" is disconnected.</message>
+</record>
+<record>
+  <date>2023-09-24T22:16:51.002767Z</date>
+  <millis>1695593811002</millis>
+  <nanos>767000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>processLine</method>
+  <thread>17</thread>
+  <message>white player of gameID = "mytestgame" is waiting for an opponent...</message>
+</record>
+<record>
+  <date>2023-09-24T22:16:51.343980Z</date>
+  <millis>1695593811343</millis>
+  <nanos>980000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>processLine</method>
+  <thread>18</thread>
+  <message>gameID = "mytestgame" has started!</message>
+</record>
+<record>
+  <date>2023-09-24T22:16:51.546028Z</date>
+  <millis>1695593811546</millis>
+  <nanos>28000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>white player's client of gameID = "mytestgame" is disconnected.</message>
+</record>
+<record>
+  <date>2023-09-24T22:16:51.546701Z</date>
+  <millis>1695593811546</millis>
+  <nanos>701000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>black player's client of gameID = "mytestgame" is disconnected.</message>
+</record>
+<record>
+  <date>2023-09-24T22:17:19.440127Z</date>
+  <millis>1695593839440</millis>
+  <nanos>127000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>processLine</method>
+  <thread>19</thread>
+  <message>white player of gameID = "mytestgame" is waiting for an opponent...</message>
+</record>
+<record>
+  <date>2023-09-24T22:17:20.165891Z</date>
+  <millis>1695593840165</millis>
+  <nanos>891000</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>processLine</method>
+  <thread>20</thread>
+  <message>gameID = "mytestgame" has started!</message>
+</record>
+<record>
+  <date>2023-09-24T22:17:24.454100Z</date>
+  <millis>1695593844454</millis>
+  <nanos>100000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>black player's client of gameID = "mytestgame" is disconnected.</message>
+</record>
+<record>
+  <date>2023-09-24T22:17:24.455586Z</date>
+  <millis>1695593844455</millis>
+  <nanos>586000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>run</method>
+  <thread>19</thread>
+  <message>white player's client of gameID = "mytestgame" is disconnected.</message>
+</record>
+<record>
+  <date>2023-09-24T22:21:56.916049Z</date>
+  <millis>1695594116916</millis>
+  <nanos>49000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>processLine</method>
+  <thread>21</thread>
+  <message>black player of gameID = "mytestgame" is waiting for an opponent...</message>
+</record>
+<record>
+  <date>2023-09-24T22:21:56.918519Z</date>
+  <millis>1695594116918</millis>
+  <nanos>519000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>processLine</method>
+  <thread>22</thread>
+  <message>gameID = "mytestgame" has started!</message>
+</record>
+<record>
+  <date>2023-09-24T22:22:00.881028Z</date>
+  <millis>1695594120881</millis>
+  <nanos>28000</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>black player's client of gameID = "mytestgame" is disconnected.</message>
+</record>
+<record>
+  <date>2023-09-24T22:22:00.881570Z</date>
+  <millis>1695594120881</millis>
+  <nanos>570000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>run</method>
+  <thread>22</thread>
+  <message>white player's client of gameID = "mytestgame" is disconnected.</message>
+</record>
+<record>
+  <date>2023-09-24T22:22:56.079293Z</date>
+  <millis>1695594176079</millis>
+  <nanos>293000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>processLine</method>
+  <thread>23</thread>
+  <message>white player of gameID = "mytestgame" is waiting for an opponent...</message>
+</record>
+<record>
+  <date>2023-09-24T22:22:56.492351Z</date>
+  <millis>1695594176492</millis>
+  <nanos>351000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>processLine</method>
+  <thread>24</thread>
+  <message>gameID = "mytestgame" has started!</message>
+</record>
+<record>
+  <date>2023-09-24T22:23:17.853797Z</date>
+  <millis>1695594197853</millis>
+  <nanos>797000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>run</method>
+  <thread>24</thread>
+  <message>black player's client of gameID = "mytestgame" is disconnected.</message>
+</record>
+<record>
+  <date>2023-09-24T22:23:17.854195Z</date>
+  <millis>1695594197854</millis>
+  <nanos>195000</nanos>
+  <sequence>25</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>DC4Server$ClientThread</class>
+  <method>run</method>
+  <thread>23</thread>
+  <message>white player's client of gameID = "mytestgame" is disconnected.</message>
+</record>
+</log>
