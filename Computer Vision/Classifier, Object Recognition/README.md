@@ -43,10 +43,10 @@ Make sure you have these installed in your environment before running the code.
 ## Running the Project
 1. Clone this repository.
 2. Open the Jupyter notebook file provided.
-3. Ensure that the `path` variable at the beginning of the notebook points to your working directory. For example:
+3. Ensure that the `path` variable at the beginning of the notebook points to the Data folder relative to the Jupyter NoteBook.
 
     ```python
-    path = '/path/to/images/'
+    path = '/path/to/Data_Folder'
     ```
 
 4. Run all cells in the notebook to generate the results.
