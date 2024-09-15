@@ -19,6 +19,7 @@ This Python script processes images of microphones exposed to particles, detects
 Install dependencies using `pip`:
 ```bash
 pip install opencv-python numpy pandas
+```
 
 ## Usage
 To run the script, use the following command:
