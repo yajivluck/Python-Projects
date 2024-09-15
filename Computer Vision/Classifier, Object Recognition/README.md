@@ -1,4 +1,4 @@
-# Feature Extraction Project
+# Classifier, Object Recognition
 
 ## Introduction
 This project is based on the concepts of classification in Computer Vision. At first, we use HoG (Histogram of Gradient) to classify basic NHL logos. Finally, a face Recognition System is implemented using three different classifiers: Linear Support Vector Machine (SVM), Random Forest, and k-Nearest Neighbors (KNN)
