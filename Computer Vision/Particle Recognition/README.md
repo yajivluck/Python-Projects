@@ -24,14 +24,20 @@ pip install opencv-python numpy pandas
 ## Usage
 To run the script, use the following command:
 
+```
 python Particle_Vision.py [--save-images] [--save-csv]
+```
+
 At least one of the following arguments is required:
 
+```
 --save-images: Save the contoured images to the output folder.
 --save-csv: Save the diameter CSV files to the output folder.
+```
 
 ## Example Usage
+```
 python Particle_Vision.py --save-images
 python Particle_Vision.py --save-csv
 python Particle_Vision.py --save-images --save-csv
-
+```
