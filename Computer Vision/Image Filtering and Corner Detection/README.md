@@ -1,4 +1,4 @@
-# Feature Extraction Project
+# Image Filtering and Corner Detection
 
 ## Introduction
 This project is an introductory assignment as part of the **Introduction to Computer Vision (ECSE 415)** course. The project includes grayscaling, gaussian smoothing, gradient computations, edge magnitude and orientation as well as Canny Edge Detection. All these methods are applied to two images named Image_1.jpg and Image_2.jpg. To run this project on different images, replace the existing ones with two of your own. Make sure they are located in the same directory as the original, as well as with the same names as the original.
