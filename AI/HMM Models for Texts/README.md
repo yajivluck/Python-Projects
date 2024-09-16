@@ -1,8 +1,7 @@
 # Markov Sentence Generator
 ==========================
 
-This project uses a Markov model to generate random sentences based on a given vocabulary and sentence structure.
-
+This project uses a Markov model to generate random sentences based on a given vocabulary and a unigram, bigram, and trigram prior probabilities.
 ## Getting Started
 
 ### Prerequisites
