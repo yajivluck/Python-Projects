@@ -1,4 +1,3 @@
-```markdown
 # Machine Learning Mini-Project: Linear and Logistic Regression
 
 ## Overview
@@ -25,4 +24,3 @@ Further exploration with larger and more diverse datasets is recommended, along 
 - Riley Ballachay
 - Yajiv Luckheenarain
 - Anna Decterov
-```
